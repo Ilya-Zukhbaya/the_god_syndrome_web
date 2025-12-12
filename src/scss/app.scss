@@ -1,0 +1,14 @@
+:root {
+  --bg-primary: #ffffff;
+  --text-primary: #000000;
+}
+
+[data-theme='dark'] {
+  --bg-primary: #000000;
+  --text-primary: #ffffff;
+}
+
+body {
+  background-color: var(--bg-primary);
+  color: var(--text-primary);
+}
